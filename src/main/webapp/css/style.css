@@ -1,0 +1,21 @@
+
+.collapse{
+    justify-content: right;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
+.containeruno{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.display-4{
+    height: 100px;
+}
+

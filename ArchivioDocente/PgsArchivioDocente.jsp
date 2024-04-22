@@ -11,13 +11,16 @@ import="java.util.*"
 <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <META name="GENERATOR" content="IBM WebSphere Studio">
 <TITLE>pgsArchivioDocente.jsp</TITLE>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet"  type="text/css" href="css/style.css">
 </HEAD>
 <BODY>
 
 <FORM method="post" action="/WebProjectMavenized/CtrlArchivioDocente" name="ArchivioDocente">
 <P>&nbsp;&nbsp; <input type="submit" name="cmdAzione" value="Torna alla Home">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<font size="+3">Archivio Docenti </font>
+	<div class="mt-5 containeruno"><h1 class="display-4 text-center">Archivio Docenti</h1></div>
 </P>
 <% 
 	List pgsElenco= (List) request.getAttribute("elencoDocenti");

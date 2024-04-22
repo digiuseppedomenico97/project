@@ -56,10 +56,11 @@ import="java.util.*"
 		</div>
 	</div>
 </nav>
-<div class="containeruno"><h1 class="display-4 text-center">Archivio Docente <i class="fa-solid fa-user-tie"></i></h1></div>
+<div class="mt-5 containeruno"><h1 class="display-4 text-center">Archivio Docente</h1></div>
+<DIV align="center">
 <FORM method="post" action="/WebProjectMavenized/CtrlArchivioDocente" name="ArchivioDocente">
 <P>&nbsp;&nbsp; <input type="submit" name="cmdAzione" value="Torna alla Home" class="btn btn-dark">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
 
 </P>
 <% 

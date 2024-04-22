@@ -14,7 +14,15 @@ pageEncoding="ISO-8859-1"
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet"  type="text/css" href="css/style.css">
 </HEAD>
+
+
+</div>
 <BODY>
+<div class="transparent-bg">
+	<!-- Contenuto della pagina qui -->
+	<div class="container">
+	</div>
+</div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
 	<div class="container">
 		<a class="navbar-brand" href="#">Menù <i class="fa-solid fa-school"></i></a>
@@ -56,6 +64,7 @@ pageEncoding="ISO-8859-1"
 	</div>
 </nav>
 
+
 <div class="mt-5 containeruno"><h1 class="display-4 text-center">Gestionale Scuola</h1></div>
 <DIV align="center">
 <FORM method="post" action="/WebProjectMavenized/CtrlMain">
@@ -92,11 +101,12 @@ pageEncoding="ISO-8859-1"
 </TABLE>
 
 <BR>
-<INPUT type ="submit" name="cmdInvio" value="Invio"  class="btn btn-dark"></DIV>
+<INPUT type ="submit" name="cmdInvio" value="Invio"  class="btn btn-dark">
 </form>
 </DIV>
-<DIV ALIGN="center"><br>
+
 </div>
+
 <footer class="text-center bg-body-tertiary fixed-bottom">
 	<!-- Grid container -->
 	<div class="container pt-4">

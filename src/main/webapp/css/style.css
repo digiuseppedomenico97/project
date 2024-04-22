@@ -15,7 +15,27 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.display-4{
-    height: 100px;
+
+
+.display-4 {
+    background-color: white;
+    opacity:0.5;
+height: 75px;
+    margin-bottom: 55px;
+
+}
+
+body {
+    background-image: url('https://wallpapers.com/images/hd/museum-background-ar4wuzdgkobt7g65.jpg'); /* Imposta il percorso dell'immagine */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.5); /* Imposta l'opacità del colore di sfondo */
+    /* Puoi cambiare i valori di rgba() per regolare l'opacità */
+    /* rgba(rosso, verde, blu, opacità) */
 }
 
